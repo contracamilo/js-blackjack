@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Blackjack</h1>
+    </header>
+    <div id="game">
+        <div class="row mt2">
+            <div class="col text-center">
+                <button id="new-game"  class="btn btn-danger">New Game</button>
+                <button id="hit-button" class="btn btn-primary">Player Hit</button>
+                <button id="stand-button" class="btn btn-primary">Stand</button>
+            </div>
+        </div>
+        <div class="row container">
+            <div id="player" class="col">
+                <h3 id="player-wins">Player Wins: 0</h3>
+                <div id="player-hand">
+                    <!--  <img class="card" src="assets/cartas/2C.png" alt="2C" class="card"> -->
+
+                </div>
+            </div>
+        </div>
+
+        <div class="row container mt-2">
+            <div id="dealer" class="col">
+                <h3 id="dealer-wins">Dealer Wins: 0</h3>
+                <div id="dealer-hand">
+                </div>
+            </div>
+        </div>
+        <div id="message"></div>
+    </div>
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

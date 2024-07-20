@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a8143;
+    color: white;
+}
+
+header{
+    text-align: center;
+    width: 100%;
+}
+
+.card{
+    position: relative;
+    width: 150px;
+    height: 220px;
+    left: 100px;
+    margin-left: -75px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#dealer-hand, #player-hand {
+    display: flex;
+    width: 100%;
+    height: 300%;
+    height: auto;
+}
+
+#message{
+    text-align: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: black;
+    opacity: 0.5;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 4rem;
+    margin: 0;
+    padding: 0;
+}

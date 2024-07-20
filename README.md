@@ -65,7 +65,8 @@ Dive in, test your luck and strategy, and see if you can beat the dealer in this
 
 ## Screenshot
 
-![Screenshot](screenshot.png)
+![Screenshot 2024-07-20 at 17 02 49](https://github.com/user-attachments/assets/2299b43f-379e-4f3c-8b21-561df3d441c9)
+
 
 ## Contributing
 

@@ -39,9 +39,9 @@ export class BlackjackGame {
     this.setScores(this.player.getHandValue(), this.dealer.getHandValue());
   }
 
-  setScores(scorePlayer, ScoreDealer) {
-    if (ScoreDealer) {
-      this.dealerScore = ScoreDealer;
+  setScores(scorePlayer, scoreDealer) {
+    if (scoreDealer) {
+      this.dealerScore = scoreDealer;
       this.dealerScoreElement.innerText = `Dealer Score: ${this.dealerScore}`;
     }
     if (scorePlayer) {

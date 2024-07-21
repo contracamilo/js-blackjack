@@ -5,7 +5,9 @@ export class Player {
     }
   
     receiveCard(card) {
-      this.hand.push(card);
+      if (card) {
+        this.hand.push(card);
+      }
     }
   
     getHandValue() {
